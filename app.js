@@ -8,7 +8,7 @@ const { useState, useEffect, useRef, useMemo } = React;
 // API Base URL (Render microservice for production, local for localhost)
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
     ? 'http://localhost:8000' 
-    : 'https://ai-backend-w52h.onrender.com';
+    : 'https://ai-model-backend-t1u5.onrender.com';
 
 // ----------------------------------------------------------------------------
 // Main Application Container
